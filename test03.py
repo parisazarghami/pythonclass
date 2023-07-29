@@ -1,0 +1,11 @@
+name = input("Enter name: ")
+family = input("Enter family: ")
+num1 = float(input("Enter num1: "))
+num2 = float(input("Enter num2: "))
+num3 = float(input("Enter num3: "))
+avg = float(input("avg: "))
+greate = float(input("avg >= 17: "))
+normal = float(input("avg <17 => 12: "))
+fail = float(input("avg < 12: "))
+
+print("your avg", greate, normal, fail)
