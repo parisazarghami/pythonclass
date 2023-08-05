@@ -1,10 +1,13 @@
-op = input("Enter op:")
-import math
-Num = int(input("enter factorial:"))
-Num = int(input("enter radical:"))
-num = int(input("enter sin:"))
-num = int(input("enter cos:"))
-num = int(input("enter tan:"))
-num = int(input("enter 1/tan:"))
-print (math.sqrt(num))
+import random
 
+pc_number = random.randit(1, 10)
+
+for i in range(5):
+user_number = int(input("Enter your num:"))
+
+if user_number == pc_number:
+    print("Bordi!!!")
+if user_number < pc_number:
+    print(" Boro bala!")
+if user_number > pc_number:
+    print("Boro paeen!")
